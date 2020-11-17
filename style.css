@@ -14,12 +14,14 @@ img{
 }
 .back{
     background-image: url('Projectimages/background%20work.png');
+     font-size: 3rem;
      max-width: 800%;
      max-height: 900%;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10rem;
+    padding: 14rem;
+    color: brown;
     
 
 }
@@ -27,6 +29,10 @@ img{
     font-family:sans-serif;
     text-justify: inter-character;
     text-transform: uppercase;
-    font-size: 3rem;
-    color: brown;
+   
 }
+@media (min-width: 8rem) {
+    .nav__item {
+        display:.inline-block;
+          
+    }
